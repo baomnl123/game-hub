@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import apiClient from "../services/api-client";
+import { Text } from "@chakra-ui/react";
 
 interface Game {
   id: number;
